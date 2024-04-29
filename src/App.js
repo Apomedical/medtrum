@@ -6,8 +6,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import banner from "./banner.webp";
-import image1 from "./image1.png"; //
-import image2 from "./image2.png"; //
+import image1 from "./image1.png"; 
+import image2 from "./image2.png"; 
 
 function App() {
   const settings = {
@@ -26,17 +26,17 @@ function App() {
       <div className="App-background">
         <Slider {...settings}>
           <div className="slide-container">
-            <img src={nanocgm} alt="fertilsanM" />
+            <img src={nanocgm}  />
             <div className="text-overlay">Touchcare S9 CGM</div>
             <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
-            <img src={touchcare} alt="fertilsanM" />
+            <img src={touchcare} />
             <div className="text-overlay">Touchcare S9 CGM</div>
             <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
-            <img src={banner} alt="fertilsanM" />
+            <img src={banner} />
             <div className="text-banner">Briga o zdravlju <br></br> putem mobilnih aplikacija</div>
             <div className="text-banner2">Sve informacije o stanju <br></br>glikemije na vašem telefonu</div>
           </div>
@@ -44,10 +44,10 @@ function App() {
         
         <div className="new-section">
           <div className="new-image">
-            <img src={image1} alt="Image 1" />
+            <img src={image1}  />
           </div>
           <div className="new-image">
-            <img src={image2} alt="Image 2" />
+            <img src={image2} />
           </div>
         </div>
         
