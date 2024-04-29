@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-background {
+  background-color: black;
+  -ms-flex-item-align: center;
+  justify-items: center;
+
+}
+
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-item-right {
+  float: right;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #ccc;
+}
+
+.slide-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 84px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-banner {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-banner2 {
+  position: absolute;
+  top: 39%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.new-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.new-image {
+  width: 48%;
+}
+
+.new-image img {
+  width: 100%;
+}
+
+.end-section {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
