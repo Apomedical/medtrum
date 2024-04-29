@@ -20,6 +20,11 @@ function App() {
     nextArrow: <CustomNextArrow />
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div>
       <Navbar />
@@ -55,7 +60,7 @@ function App() {
           <p>Prije upotrebe pažljivo pročitati uputstvo za upotrebu medicinskog sredstva. Za obavijesti o indikacijama, mjerama opreza i neželjenim djejstvima posavjetujte se sa ljekarom ili farmaceutom</p>
           <p>Kontakt telefon: 032/771-770</p>
         </div>
-        <div className="contact-form">
+        <div className="contact-form" id="contact">
           <h2>Kontaktirajte nas</h2>
           <form>
             <label>Ime:</label>
@@ -70,7 +75,7 @@ function App() {
           </form>
         </div>
         
-        <a id="contact" href="#">Contact</a>
+        <button className="scroll-to-contact" onClick={scrollToContact}>Kontakt</button>
       </div>
     </div>
   );
