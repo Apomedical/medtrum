@@ -26,17 +26,17 @@ function App() {
       <div className="App-background">
         <Slider {...settings}>
           <div className="slide-container">
-            <img src={nanocgm}  />
+            <img src={nanocgm} alt='' />
             <div className="text-overlay">Touchcare S9 CGM</div>
             <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
-            <img src={touchcare} />
+            <img src={touchcare} alt='' />
             <div className="text-overlay">Touchcare S9 CGM</div>
             <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
-            <img src={banner} />
+            <img src={banner} alt='' />
             <div className="text-banner">Briga o zdravlju <br></br> putem mobilnih aplikacija</div>
             <div className="text-banner2">Sve informacije o stanju <br></br>glikemije na vašem telefonu</div>
           </div>
@@ -44,10 +44,10 @@ function App() {
         
         <div className="new-section">
           <div className="new-image">
-            <img src={image1}  />
+            <img src={image1} alt='' />
           </div>
           <div className="new-image">
-            <img src={image2} />
+            <img src={image2} alt=' '/>
           </div>
         </div>
         
