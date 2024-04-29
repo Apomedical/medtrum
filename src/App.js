@@ -70,7 +70,7 @@ function App() {
           </form>
         </div>
         
-        <a id="contact"></a>
+        <a id="contact" href="#">Contact</a>
       </div>
     </div>
   );
