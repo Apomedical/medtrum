@@ -36,6 +36,9 @@ function App() {
             <img src={nanocgm} alt='' />
             <div className="text-overlay3">S9 CGM System</div>
             <div className="text-overlay4">Sistem za kontinuirano <br></br>praćenje glikemije</div>
+            <div className="text-overlay5">
+          <p>Prije upotrebe pažljivo pročitati uputstvo za upotrebu medicinskog sredstva. <br></br>Za obavijesti o indikacijama, mjerama opreza i neželjenim djejstvima <br></br> posavjetujte se sa ljekarom ili farmaceutom</p>
+        </div>
           </div>
           <div className="slide-container">
             <img src={touchcare} alt='' />
