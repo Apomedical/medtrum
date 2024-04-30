@@ -239,3 +239,24 @@
   }
 }
 
+/* Add this CSS to your App.css file */
+.end-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.end-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px) {
+  .end-section p {
+    font-size: 14px;
+  }
+}
+
