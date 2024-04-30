@@ -107,7 +107,7 @@
 .text-banner {
   position: absolute;
   top: 30%;
-  left: 71%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 84px;
@@ -119,7 +119,7 @@
 .text-banner2 {
   position: absolute;
   top: 50%;
-  left: 71%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 38px;
