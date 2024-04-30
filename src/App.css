@@ -225,3 +225,28 @@
     font-size: 14px;
   }
 }
+
+
+/* Add this CSS to your App.css file */
+.text-overlay,
+.text-overlay2 {
+  font-size: 18px; /* Default font size for overlays */
+}
+
+.text-banner,
+.text-banner2 {
+  font-size: 24px; /* Default font size for banner text */
+}
+
+/* Adjust font sizes for smaller screens */
+@media screen and (max-width: 768px) {
+  .text-overlay,
+  .text-overlay2 {
+    font-size: 14px;
+  }
+
+  .text-banner,
+  .text-banner2 {
+    font-size: 18px;
+  }
+}
