@@ -107,7 +107,7 @@
 .text-banner {
   position: absolute;
   top: 30%;
-  left: 40%;
+  left: 55%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 84px;
@@ -119,7 +119,7 @@
 .text-banner2 {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 55%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 38px;
@@ -209,11 +209,11 @@
 }
 
 
-/* Add this CSS to your App.css file */
+/* Add this CSS to your App.css file 
 .text-overlay,
 .text-overlay2 {
   font-size: 18px; /* Default font size for overlays */
-}
+ 
 
 
 
