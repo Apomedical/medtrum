@@ -232,12 +232,16 @@
 
   .text-banner {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .text-banner2 {
     font-size: 14px;
   }
 }
+
+
+
 
 /* Add this CSS to your App.css file */
 .end-section {
