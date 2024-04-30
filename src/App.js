@@ -9,6 +9,12 @@ import banner from "./banner.webp";
 import image1 from "./image1.png"; 
 import image2 from "./image2.png"; 
 
+<head>
+  <!-- Other meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
 function App() {
   const settings = {
     dots: true,

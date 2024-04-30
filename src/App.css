@@ -196,3 +196,14 @@
 .contact-form button:hover {
   background-color: #45a049;
 }
+
+
+.slide-container img {
+  width: 100%;
+  height: auto;
+}
+
+.new-image img {
+  max-width: 100%;
+  height: auto;
+}
