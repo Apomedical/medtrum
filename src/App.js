@@ -34,8 +34,8 @@ function App() {
         <Slider {...settings}>
           <div className="slide-container">
             <img src={nanocgm} alt='' />
-            <div className="text-overlay">S9 CGM System</div>
-            <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
+            <div className="text-overlay3">S9 CGM System</div>
+            <div className="text-overlay3">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
             <img src={touchcare} alt='' />

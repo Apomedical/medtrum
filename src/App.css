@@ -104,6 +104,18 @@
   padding: 10px;
 }
 
+.text-overlay3 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 84px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
 .text-banner {
   position: absolute;
   top: 30%;
