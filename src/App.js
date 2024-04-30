@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import nanocgm from "./nanocgm.jpg";
-import touchcare from "./touchcare.webp";
+import touchcare from "./touchcare.jpg";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
