@@ -43,10 +43,10 @@ function App() {
             <div className="text-overlay2">Sistem za kontinuirano <br></br>praćenje glikemije</div>
           </div>
           <div className="slide-container">
-            <img src={banner} alt='' />
-            <div className="text-banner">Briga o zdravlju <br></br> putem mobilnih aplikacija</div>
-            <div className="text-banner2">Sve informacije o stanju <br></br>glikemije na vašem telefonu</div>
-          </div>
+  <img src={banner} alt='' />
+  <div className="text-banner">Briga o zdravlju putem mobilnih aplikacija</div>
+  <div className="text-banner2">Sve informacije o stanju glikemije na vašem telefonu</div>
+</div>
         </Slider>
         
         <div className="new-section">

@@ -209,33 +209,18 @@
 }
 
 
-.text-overlay,
-.text-overlay2,
-.text-banner,
-.text-banner2 {
-  font-size: 18px; /* Default font size */
-}
-
-/* for smaller screens */
-@media screen and (max-width: 768px) {
-  .text-overlay,
-  .text-overlay2,
-  .text-banner,
-  .text-banner2 {
-    font-size: 14px;
-  }
-}
-
-
 /* Add this CSS to your App.css file */
 .text-overlay,
 .text-overlay2 {
   font-size: 18px; /* Default font size for overlays */
 }
 
-.text-banner,
+.text-banner {
+  font-size: 24px; /* Default font size for banner title */
+}
+
 .text-banner2 {
-  font-size: 24px; /* Default font size for banner text */
+  font-size: 16px; /* Default font size for banner subtitle */
 }
 
 /* Adjust font sizes for smaller screens */
@@ -245,8 +230,12 @@
     font-size: 14px;
   }
 
-  .text-banner,
-  .text-banner2 {
+  .text-banner {
     font-size: 18px;
   }
+
+  .text-banner2 {
+    font-size: 14px;
+  }
 }
+
